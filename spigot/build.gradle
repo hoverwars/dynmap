@@ -34,7 +34,7 @@ dependencies {
     implementation group: 'org.bstats', name: 'bstats-bukkit', version: '3.0.2'
     compileOnly('com.googlecode.json-simple:json-simple:1.1.1') { transitive = false }
     compileOnly('com.google.code.gson:gson:2.8.9') { transitive = false }
-    compileOnly "org.checkerframework:checker-qual:3.42.0"
+    //compileOnly "org.checkerframework:checker-qual:3.42.0"
     compileOnly('com.google.guava:guava:33.5.0-jre')
     implementation(project(':bukkit-helper')) {
         transitive = false

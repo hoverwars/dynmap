@@ -175,7 +175,6 @@ public class BukkitVersionHelperSpigot26_1_2 extends BukkitVersionHelper {
 			if (bd.isAir()) { bld.setAir(); }
 			if (bd.is(BlockTags.OVERWORLD_NATURAL_LOGS)) { bld.setLog(); }
 			if (bd.is(BlockTags.LEAVES)) { bld.setLeaves(); }
-			// BlockBehaviour$BlockStateBase.getFluidState.isEmpty(), BlockBehaviour$BlockStateBase.getBlock
 			if (!bd.getFluidState().isEmpty() && !(bd.getBlock() instanceof LiquidBlock)) { // Test if fluid type for block is not empty
 				bld.setWaterlogged();
 				//Log.info("statename=" + bname + "[" + sb + "] = waterlogged");
